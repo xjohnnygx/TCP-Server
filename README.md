@@ -16,8 +16,8 @@ Esta es una aplicación de chat simple basada en TCP donde múltiples clientes p
 
 ### 1. Clonar el repositorio
 ```sh
-git clone <repository_url>
-cd <repository_folder>
+git clone https://github.com/xjohnnygx/TCP-Server
+cd TCP-Server
 
 
 ```sh
