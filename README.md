@@ -61,7 +61,7 @@ Repite este paso en múltiples ventanas de terminal para tener un chat entre cli
 - Asegurate que server.py este corriendo
 - Abre otra 'Tab' e introduce lo sigente
 ```sh
-python test_client.py
+pytest test_client.py
 ```
 
 ¡Disfruta chateando!
