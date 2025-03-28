@@ -16,7 +16,7 @@ while True:
     client, address = server.accept()
     print(f"{address} connected")
     manager.connect(client)
-    client.sendall(b"enter username")
+    client.sendall(b"ENTER USERNAME")
     username = client.recv(1024).decode()
     manager.broadcast(client, f"{username} joined.")
     client.sendall(b"Connection Established, type 'DESCONEXION' to close the connection.")

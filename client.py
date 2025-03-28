@@ -4,7 +4,7 @@ from socket import socket, AF_INET, SOCK_STREAM
 PORT=5000
 HOST="localhost"
 
-username=input("enter username: ").capitalize()
+username=input("ENTER USERNAME: ").upper()
 connection=socket(AF_INET, SOCK_STREAM)
 connection.connect((HOST, PORT))
 
@@ -12,7 +12,7 @@ def receive():
     while True:
         try:
             message = connection.recv(1024).decode()
-            if message == "enter username":
+            if message == "ENTER USERNAME":
                 connection.sendall(username.encode())
             else:
                 print(message)

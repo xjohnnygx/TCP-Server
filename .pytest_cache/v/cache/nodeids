@@ -1,0 +1,5 @@
+[
+  "test_server.py::test_client_connection",
+  "test_server.py::test_client_disconnect",
+  "test_server.py::test_example"
+]

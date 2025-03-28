@@ -57,4 +57,11 @@ Repite este paso en múltiples ventanas de terminal para tener un chat entre cli
 - Usa múltiples ventanas de terminal para simular múltiples usuarios.
 - El servidor se ejecuta en localhost:5000 por defecto (cámbialo en el código si es necesario).
 
+## Ejecuta las pruebas de conexion y desconexion del cliente
+- Asegurate que server.py este corriendo
+- Abre otra 'Tab' e introduce lo sigente
+```sh
+python test_client.py
+```
+
 ¡Disfruta chateando!
